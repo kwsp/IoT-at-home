@@ -10,6 +10,8 @@
  install:
      - pip install -U platformio
      - platformio update
+     - platformio lib install ArduinoJson
+     - platformio lib install WiFiManager
 
  script:
      - platformio run
