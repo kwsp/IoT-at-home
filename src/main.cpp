@@ -1,13 +1,13 @@
-/**
-   PostHTTPClient.ino
-
-    Created on: 21.11.2016
-
-*/
+/*
+ * Main client for sending environmental sensor data
+ * to the central server
+ *
+ * Runs on a NodeMCU 1.0 with the ESP8266 WiFi chip
+ */
 
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
-#include <WiFiManager.h> 
+#include <WiFiManager.h>
 #include <ArduinoJson.h>
 
 #include "thermister.h"
